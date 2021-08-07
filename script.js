@@ -13,7 +13,7 @@ var checkDead = setInterval(function() {
     let boxesLeft = parseInt(window.getComputedStyle(boxes).getPropertyValue("left"));
     if(boxesLeft<20 && boxesLeft>-20 && characterTop>=130){
         boxes.style.animation = "none";
-        alert(" Oh You Hitted by a Box !  Your Score: "+Math.floor(counter/100));
+        alert(" ouch ! You got Hit . Your Score: "+Math.floor(counter/100));
         counter=0;
        boxes.style.animation = "boxes 1s infinite linear";
     }else{
