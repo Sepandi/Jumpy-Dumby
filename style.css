@@ -12,11 +12,11 @@
 #character{
     width: 10px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
+    
     position:relative;
     top: 150px;
     left: 20px;
-    background-image: url("./charecter.png");
+    background-image: url("./Data/charecter.gif");
 }
 .animate{
     animation: jump 0.3s linear;
@@ -29,14 +29,14 @@
 }
 
 #boxes{
-    background-color: rgb(255, 255, 255);
+    
     width: 30px;
     height: 30px;
     position: relative;
     top: 120px;
     left: 500px;
     animation: boxes 1s infinite linear;
-    background-image: url("./block.png");
+    background-image: url("./Data/block.png");
 }
 @keyframes boxes {
     0%{left: 500px}
@@ -44,5 +44,11 @@
 }
 p{
     text-align: center;
-    font-size: 45px;;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
