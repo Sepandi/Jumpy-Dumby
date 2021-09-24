@@ -1,4 +1,4 @@
 # Jumpy-Dumby
- Dev Mode
-in development ...
-a secret : its a game !
+Release 1.0
+My First Ever Game
+
